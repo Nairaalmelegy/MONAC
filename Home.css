@@ -1,0 +1,569 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #F9C365;
+    color: #1D1D1D;
+    padding: 1em;
+    display: grid;
+    grid-template-rows: (1fr, 1fr, 1fr);
+    height: max-content;
+}
+
+/* Navbar design part */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    width: 100%;
+    justify-content: unset;
+    margin-right: 5%;
+}
+nav ul li{
+    text-decoration-line: none;
+    font-size: 1.2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    
+    
+}
+
+nav img{
+    width: 120px;
+    height: auto;
+}
+nav .Register{
+    justify-content:end;
+}
+
+/* Design of Main Container */
+header .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+header .container .Heading{
+    font-size: 2rem;
+    font-family: 'poppins', sans-serif;
+    margin-left: 10%;
+
+}
+header .container .Heading img{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+
+}
+header .container .Heading span{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 40px;
+    background-color: #1D1D1D;
+    color: #F9C365;
+}
+
+header .container .Heading-Parag{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 18%;
+    margin-right: 0;
+}
+
+header .container button{
+    color: #1D1D1D;
+    background-color: #F9C365;
+    border: 1px solid #1D1D1D;
+    padding: 0.5em 1em;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-right: 8%;
+}
+
+header .container button img{
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 2%;
+}
+header .container button:hover{
+    background-color: #1D1D1D;
+    color: #F9C365;
+}
+header .ImageContainer{
+    justify-self: center;
+    align-items: center;
+}
+
+header .ImageContainer .BShape{
+    position: absolute;
+    right: 0%;
+}
+
+header .ImageContainer .drawUp{
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+header .ImageContainer .prush{
+    position:absolute;
+    left: 0%;
+    top:85%;
+}
+header .ImageContainer .drawDown{
+    position:absolute;
+    right: 10%;
+    bottom:-42%;
+}
+
+/*Rating Numbers section*/
+.rating-numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em;
+}
+
+.rating-numbers .rate{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.rating-numbers .rate p{
+    font-size: 1rem;
+}
+
+/*Smart Online education*/
+.Online-edu{
+    background-color: #FEF6E4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+
+
+.Online-edu .Online-edu-Container {
+    font-size: 2.5rem;
+    font-family: 'poppins', sans-serif;
+    margin-left: 10%;
+
+}
+
+.Online-edu .Online-edu-Container span{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 40px;
+    background-color: #F9C365;
+    border: 1px solid #1D1D1D;
+    color: #1D1D1D;
+}
+
+.Online-edu .Online-edu-Container p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: #4E4F51;
+}
+
+/* Our Features special for you section */
+.Our-Features{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 6%;
+    
+    background: radial-gradient(#eedec2, #FEFCF9);
+}
+
+.Our-Features .Our-Features-row1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.Our-Features .Our-Features-row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2%;
+}
+
+.Our-Features .Our-Features-row1 .Features-link{
+    font-size: 1.5rem;
+    background-color: #1D1D1D;
+    padding-left: 5%;
+    border-radius: 30px;
+    padding-top: 0%;
+    color: #ffffff;
+    align-content: center;
+}
+.Our-Features .Our-Features-row1 .Features-link span{
+
+    color: #F9C365;
+}
+
+.Our-Features .Our-Features-row1 .Features-link .tag{
+    position: absolute;
+    left: 7%;
+}
+
+
+.Our-Features .Our-Features-row1 .Features-link button{
+    color: #1D1D1D;
+    background-color: #F9C365;
+    border: 1px solid #1D1D1D;
+    padding: 0.5em 1em;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-right: 8%;
+    
+}
+
+.Our-Features .Our-Features-row1 .Features-link button img{
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 2%;
+}
+.Our-Features .Our-Features-row1 .Features-link button:hover{
+    background-color: #d29b3d;
+    
+}
+
+.Our-Features .Types{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5%;
+
+}
+.Types h1{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: #1D1D1D;
+}
+.Types p{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #4E4F51;
+}
+
+/* Popular Courses */
+/**
+ * 1fr for the Heading: Popular Courses
+ * 3fr for the next row: Explore Our Courses
+*/
+.popular-courses{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 0%;
+    background-color: #1D1D1D;
+}
+/* Heading */
+.popular-courses .HeaderPop{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+.popular-courses .HeaderPop span{
+    font-family: 'poppins', sans-serif;
+    font-size: 3rem;
+    color: #F9C365;
+    border: 1px solid #F9C365;
+    border-radius: 40px;
+    padding: 0.1rem 0.8rem;
+}
+
+/* Three Columns for Courses*/
+.popular-courses .popular-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 5%;
+    background-color: #1D1D1D;
+    gap: 0.5em;
+}
+/* Card Style */
+.popular-courses .popular-row .cards-popular{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5%;
+    display: grid;
+    grid-template-rows: 0.5fr 0.2fr 0.5fr;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.popular-courses .popular-row .cards-popular:hover{
+    box-shadow: 8px 8px 15px rgba(249, 195, 101);
+}
+
+
+/* Images Style */
+.popular-courses .coursePhotodiv{
+    align-items: center;
+    justify-self: center;
+
+}
+.popular-courses .coursePhotodiv .coursePhoto{
+    height: 300px;
+    width: auto;
+    border-radius: 30px;
+}
+
+/* Icons Style Star and Clock */
+.popular-courses .popular-row .cards-popular .rate-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    font-size: small;
+    color: #4E4F51;
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.popular-courses .popular-row .Rating .svgIcon{
+    width: 25px;
+    height: 25px;
+}
+.popular-courses .popular-row .Time .svgIcon{
+    width: 20px;
+    height: 20px;
+}
+.popular-courses .popular-row .cards-popular .rate-row .Time{
+    justify-self: flex-end;
+    padding-right: 10%;
+}
+
+/* Title of Course h1 */
+.cards-popular h1{
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    color: #1D1D1D;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Button of view */
+.cards-popular button{
+    background-color: #ffffff;
+    border: 1px solid #1D1D1D;
+    border-radius: 40px;
+    padding: 0.8em 1em;
+    font-size: medium;
+    margin-left: 5%;
+}
+
+.cards-popular button:hover {
+    background-color: #F9C365;
+}
+
+/* Start Learning */
+.Start-Learning{
+    background-color: #ffffff;
+}
+.Start-Learning .Startlearn{
+    padding: 0.5rem 2.5rem;
+}
+.Start-Learning .Startlearn ol {
+    list-style: none; /* Remove default list markers */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: start;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.Start-Learning .Startlearn ol li {
+    position: relative;
+    padding-left: 30px; /* Add space for the custom icon */
+}
+
+.Start-Learning .Startlearn ol li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Control the width of the icon */
+    height: 20px; /* Control the height of the icon */
+    background-image: url(Assets/SVGs/marked.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Drawings*/
+.drawingdown{
+    position: absolute;
+    left: -5%;
+    bottom: 10%;
+}
+.upright{
+    position: absolute;
+    right: -1.312%;
+    top: -5.2%;
+}
+/* Middle div */
+.forgive{
+    background-color: #F9C365;
+    color: #1D1D1D;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 40px;
+    padding-left: 3%;
+    margin: 5% 20% -10% 20%;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+.order-now{
+    align-content: center;
+}
+.order-now h1{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 2.5rem;
+}
+.order-now button{
+    background-color: #1D1D1D;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    color: #F9C365;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.order-now button img{
+    width: 20px;
+    height: auto;
+    color: #F9C365;
+    
+}
+/* Last section */
+.Last-behind{
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+    background-color: #FEF6E4;
+    margin-top: -10%;
+}
+
+
+.Last-behind-Container {
+    font-size: 2.5rem;
+    font-family: 'poppins', sans-serif;
+    margin-left: 10%;
+
+}
+
+.Last-behind-Container span{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 40px;
+    background-color: #F9C365;
+    border: 1px solid #1D1D1D;
+    color: #1D1D1D;
+}
+
+.Last-behind-Container img{
+    width: 150px;
+    height: auto;
+}
+.Last-behind .flowerShape{
+    position : absolute;
+    left: 0%;
+    width: 200px;
+}
+.Last-behind .prushshape{
+    position : absolute;
+    right: 0%;
+    width: 200px;
+    z-index: 1;
+}
+.footback{
+    background-color: #FEF6E4;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    margin-top: -7%;
+    
+}
+.footer-Container{
+    background-color: #1D1D1D;
+    border-radius: 30px 30px 0px 0px;
+    display: grid;
+    grid-template-rows: 3fr 0.5fr;
+    z-index: 2;
+    padding: 8% 5% 0.5% 5%;
+}
+
+
+.footer-Container .first-row{
+    background-color: #1D1D1D;
+    border-radius: 30px 30px 0px 0px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 5rem;
+    color: #ffffff;
+}
+
+.footer-Container .first-row img{
+    width: 200px;
+    height: auto;
+    margin-left: 5%;
+}
+.footer-Container .first-row p{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #FEF6E4;
+    margin-left: 5%;
+}
+.footer-Container .footer-copyright{
+    background-color: #1D1D1D;
+    border-radius: 30px 30px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #ffffff;
+    align-content: end;
+    opacity: 0.7;
+}
+.footer-Container .first-row .lists{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 0.7rem;
+}
+.footer-Container .first-row .lists p{
+    font-size: 1rem;
+}
+.footer-Container .footer-copyright .privacy{
+    justify-self: flex-end;
+}
